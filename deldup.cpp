@@ -13,17 +13,10 @@ int main()
 	for(i=0;i<n;i++){
 		for(j=i+1;j<n;j++){
 			if (a[i]==a[j])
-			a[i]=-1;
-			
-			
-			
-			}
+			a[i]=-1;	}}
 	for(i=0;i<n;i++){
 		if (a[i]!=-1)
 		printf("%d",a[i]);}
 
 	
 	}
-	
-}
-
