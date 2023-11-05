@@ -4,24 +4,28 @@ int main()
 	int i,n,j,s;
 	printf("enter n value");
 	scanf("%d",&n);
-	for(int i=0;i<n;i++)
-	{
-		for(j=0;j<i+1;j++) 
-			printf("*");
-			printf("\n");
-		{   for(s=0;s<i;s++)
-	            printf(" ");
+	for(int i=0;i<n;i++){
+		for(j=0;j<i+1;j++){
+			printf("*");}
+			for(s=0;s<2*(n)-2*i-2;s++){
+				printf(" ");}
+			for(j=0;j<i+1;j++){
+				printf("*");
 		}
-		for(int i=0;i<n;i++)
-	{   for(s=0;s<n-i-1;s++)
-            printf(" ");	
-	{       for(j=0;j<i+1;j++) 
-                printf("*");
-			    printf("\n");
+		printf("\n");
+		}
+	for(i=0;i<n;i++){
+		for(j=0;j<n-i;j++){
+			printf("*");}
+			for(s=0;s<2*i;s++){
+				printf(" ");}
+			for(j=0;j<n-i;j++){
+				printf("*");
+				
 	}
-	}
-
-	} 
+	printf("\n");
+				
+			}
 	
-
-}
+	}
+	
